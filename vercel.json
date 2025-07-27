@@ -1,7 +1,5 @@
 {
   "buildCommand": "pnpm run build",
-  "outputDirectory": "public",
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
-  ]
+  "outputDirectory": ".vercel/output/static",
+  "framework": "other"
 }
